@@ -4,7 +4,7 @@ use testdb;
 
 create table users(
 user_id int primary key auto_increment,
-user_name varcher(255),
+user_name varchar(255),
 password varchar(255)
 );
 
