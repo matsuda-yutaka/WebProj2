@@ -4,13 +4,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
-		<title>Insert title here</title>
+		<meta charset="utf-8">
+		<title>WELCOME</title>
 	</head>
 	<body>
 		名前とパスワードを入力してください。
 		<s:form method="post" action="LoginAction">
-			<s:texfield name="username" label="ユーザー名"/>
+			<s:textfield name="username" label="ユーザー名"/>
 			<s:password name="password" label="パスワード"/>
 			<s:submit value="送信"/>
 		</s:form>
